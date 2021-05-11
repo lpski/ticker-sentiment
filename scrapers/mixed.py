@@ -1064,7 +1064,7 @@ def analyze():
 # Monitoring
 def check_sources():
     start = timer()
-    all_sources = ['seeking_alpha', 'cnbc', 'ap', 'benzinga', 'bloomberg', 'reuters', 'market_watch', 'pr_newswire']
+    all_sources = ['seeking_alpha', 'cnbc', 'ap', 'benzinga', 'bloomberg', 'reuters', 'market_watch', 'pr_newswire', 'investors']
     bg_sources = ['market_watch', 'ap', 'benzinga', 'cnn', 'finurls', 'pr_newswire']
     threads: List[threading.Thread] = []
     print(f'Mixed Sources Refresh: {", ".join(bg_sources)}')
