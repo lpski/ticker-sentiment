@@ -1,4 +1,5 @@
 # ticker-sentiment
+Ticker-Sentiment provides a multitude of article and post scrapers as well as built-in NLTK sentiment analysis and elasticsearch upload/retrieval support.
 
 
 ## Setup Instructions
@@ -22,7 +23,7 @@ docker logs elasticsearch
 
 
 ## Available News/Post Sources
-Currently, there are XX sources to choose from as listed below with notes
+Currently, there are many sources to choose from as listed below with notes
 
 *Can run in background without any additional setup*
 
